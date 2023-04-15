@@ -1,6 +1,6 @@
 const products = [
     {
-        id: 1,
+        id: '1',
         name: 'Postre Napoleon',
         price: 12000,
         category: 'postres',
@@ -9,7 +9,7 @@ const products = [
         description: 'Delicioso postre Napoleon para 1 persona' 
     },
     {
-        id: 2,
+        id: '2',
         name: 'Postre Tres Leches',
         price: 10000,
         category: 'postres',
@@ -18,7 +18,7 @@ const products = [
         description: 'Delicioso postre Tres Leches para deleitar el paladar'
     },
     {
-        id: 3,
+        id: '3',
         name: 'Pudín Chocolate Blanco',
         price: 15000,
         category: 'pudines',
@@ -40,6 +40,14 @@ export const getProductById = (productId) => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(products.find(prod => prod.id === productId))
+        },400)
+    })
+}
+
+export const getProductsByCategory = (categoryId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products.find(prod => prod.category === categoryId))
         },400)
     })
 }
