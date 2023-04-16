@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import {getProducts, getProductsByCategory} from '../../asyncCatalog'
 import { useParams } from 'react-router-dom'
 import ItemList from '../ItemList/ItemList'
+import './ItemListContainer.css'
 
 const ItemListContainer = ({ greeting }) => {
 
@@ -22,7 +23,7 @@ const ItemListContainer = ({ greeting }) => {
     },[categoryId])
 
     return (
-        <div>
+        <div className='mainContainer'>
             <h1>{greeting}</h1>
             <ItemList products={products}/>
         </div>
