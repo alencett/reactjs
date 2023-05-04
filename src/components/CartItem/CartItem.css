@@ -8,4 +8,5 @@
 .cartItem img {
     width: 200px;
     margin-right: 1rem;
+    border-radius: 10px;
 }
