@@ -35,6 +35,10 @@ const ItemListContainer = ({ greeting }) => {
                 setLoading(false)
             })
         },[categoryId])
+
+        if(loading) {
+            return <h2>Cargando...</h2>
+        }
         
     return (
         <div className='mainContainer'>

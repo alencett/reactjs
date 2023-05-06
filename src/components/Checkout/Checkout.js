@@ -3,6 +3,7 @@ import { collection, getDocs, addDoc, query, where, Timestamp, documentId, write
 import { useContext, useState } from 'react'
 import { CartContext } from '../../context/CartContext'
 import { db } from '../../firebase/firebaseConfig'
+import { Link } from 'react-router-dom'
 import CheckoutForm from '../CheckoutForm/CheckoutForm'
 
 const Checkout = () => {
@@ -87,7 +88,7 @@ const Checkout = () => {
         }
 
         if(orderId) {
-            return <h3>Gracias por su compra! El número de referencia de su orden es: {orderId}</h3>
+            return <h3>Gracias por su compra! El número de referencia de su orden es: {orderId}, <Link to='/'> seguir comprando</Link></h3>
                     
         }
 
