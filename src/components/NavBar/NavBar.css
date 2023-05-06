@@ -7,7 +7,7 @@
 }
 
 .categories {
-    display: flex;
-    width: 150px;
-    justify-content: space-between;
+    display: inline-flex;
+    width: 450px;
+    justify-content: space-around;
 }
