@@ -1,7 +1,7 @@
 const products = [
     {
         id: '1',
-        name: 'Postre Napoleon',
+        name: 'ASYNCPostre Napoleon',
         price: 12000,
         category: 'postres',
         img: 'https://static.solopostres.com/uploads/2012/10/postre-napoleon.jpg',
@@ -10,7 +10,7 @@ const products = [
     },
     {
         id: '2',
-        name: 'Postre Tres Leches',
+        name: 'ASYNCPostre Tres Leches',
         price: 10000,
         category: 'postres',
         img: 'https://cuk-it.com/wp-content/uploads/2022/05/thumb03-1024x576.jpg',
@@ -19,7 +19,7 @@ const products = [
     },
     {
         id: '3',
-        name: 'Pudín Chocolate Blanco',
+        name: 'ASYNCPudín Chocolate Blanco',
         price: 15000,
         category: 'pudines',
         img: 'https://www.deliciosi.com/images/2200/2274/tarta-de-oreo-y-chocolate-blanco.jpg',
