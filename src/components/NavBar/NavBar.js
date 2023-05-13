@@ -6,13 +6,13 @@ const NavBar = () => {
     return (
         <nav className="navBar">
             <Link to='/'>
-            <h1>Repostería La Vie en Rose</h1>
+            <h1 className="reposteria">Repostería La Francesa |</h1>
             </Link>
             <div className="categories">
-                <NavLink to={'/category/postres'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}><p>Postres</p></NavLink>
-                <NavLink to={'/category/pudines'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}><p>Pudines</p></NavLink>
-                <NavLink to={'/category/cupcakes'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}><p>Cupcakes</p></NavLink>
-                <NavLink to={'/aboutus'} className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}><p>About Us</p></NavLink>
+                <NavLink to={'/category/postres'} className="ind-category"><p>Postres</p></NavLink>
+                <NavLink to={'/category/pudines'} className="ind-category"><p>Pudines</p></NavLink>
+                <NavLink to={'/category/cupcakes'} className="ind-category"><p>Cupcakes</p></NavLink>
+                <NavLink to={'/aboutus'} className="ind-category"><p>About Us</p></NavLink>
             </div>
             <div>
                 <CartWidget />

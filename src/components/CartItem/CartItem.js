@@ -10,7 +10,7 @@ const CartItem = ({ prod }) => {
     return (
         <div className='cartItem'>
             <img src={prod.img} alt={prod.name}/>
-            <div>
+            <div className='descriptionItem'>
                 <p>Producto: {prod.name}</p>
                 <p>Cantidad: {prod.quantity}</p>
                 <p>Precio unitario: ${prod.price}</p>

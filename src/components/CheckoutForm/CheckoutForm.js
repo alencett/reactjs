@@ -53,17 +53,19 @@ const CheckoutForm = ({ onConfirm }) => {
     <div className="checkoutform">
       <form onSubmit={handleConfirm}>
         <label className="label">
-          Nombre
-          <input
+          Nombre: 
+          <br></br><input
             type="text"
             className="input"
             value={name}
             onChange={({ target }) => setName(target.value)}
           />
         </label>
+        <br></br>
+        <br></br>
         <label className="label">
-          Teléfono
-          <input
+          Teléfono:
+          <br></br><input
             type="text"
             className="input"
             value={phone}
@@ -71,9 +73,11 @@ const CheckoutForm = ({ onConfirm }) => {
           />
         </label>
         {errors.phone && <div className="error">{errors.phone}</div>}
+        <br></br>
+        <br></br>
         <label className="label">
-          Email
-          <input
+          Email:
+          <br></br><input
             type="text"
             className="input"
             value={email}
@@ -81,9 +85,11 @@ const CheckoutForm = ({ onConfirm }) => {
           />
         </label>
         {errors.email && <div className="error">{errors.email}</div>}
+        <br></br>
+        <br></br>
         <label className="label">
-          Confirmar Email
-          <input
+          Confirmar Email:
+          <br></br><input
             type="text"
             className="input"
             value={confirmEmail}
@@ -91,6 +97,8 @@ const CheckoutForm = ({ onConfirm }) => {
           />
         </label>
         {errors.confirmEmail && <div className="error">{errors.confirmEmail}</div>}
+        <br></br>
+        <br></br>
         <div className="label">
           <button className="button" type="submit">
             Crear orden

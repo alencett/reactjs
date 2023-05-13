@@ -1,3 +1,19 @@
 h5 {
     background-color: blueviolet;
 }
+
+.cartImg {
+    color: aliceblue;
+    height: 30px;
+    width: 30px;
+    padding-top: 12px;
+}
+
+.cartwidget {
+    color: aliceblue;
+}
+
+.cartwidget:hover {
+    color: black;
+    transition: 0.6s;
+}

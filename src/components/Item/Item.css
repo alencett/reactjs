@@ -1,9 +1,12 @@
 .cardItem {
     width: 250px;
     height: 350px;
-    background-color: blanchedalmond;
+    background-color: #8bd7f3;
     padding: 5px;
-    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
 }
 
@@ -11,4 +14,32 @@
     width: 80%;
     height: 40%;
     border-radius: 10px;
+}
+
+.itemHeader {
+    color: #FFFFFF;
+}
+
+.option {
+    width: 100%;
+    background-color: #f1b0c5;
+    border: 0px;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    padding: 8px;
+    letter-spacing: 2px;
+}
+
+.option:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.option:active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
 }

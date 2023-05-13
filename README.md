@@ -1,3 +1,35 @@
+# About the project // Acerca del proyecto:
+
+Hello! This is Alvaro Blanquicett, and this is my Ecommerce Final Project for the ReactJS Coderhouse Course. 
+
+The project consist of a fully functional platform that can show and sort products by category, add or substract to and from the cart, gives you the total amount and also the individual price, as well as manages stock, the components found are the Cart, Checkout, Item, ItemDetail, Container, NavBar and such, initially the database was mocked via json but later on was imported via Firebase, and now it is fully integrated, the project manages to create and input an order from scratch, generating an order Id in the end and also creating in back into Firebase, information which is secured into a .env file as well.
+
+Feel free to leave your feedback as well as reach me at:
+
+Email: alvaroblanquicett@gmail.com
+LinkedIn: https://www.linkedin.com/in/alvaro-blanquicett/
+GitHub: https://github.com/alencett
+
+Thank you!
+
+May 2023
+
+--------------------------------------------------------------------------------
+
+¡Hola! Mi nombre es Alvaro Blanquicett, y este es mi Proyecto Final de Ecommerce para el Curso Coderhouse de ReactJS.
+
+El proyecto consiste en una plataforma completamente funcional que puede mostrar y ordenar productos por categoría, agregar o restar al carrito, da el monto total y también el precio individual por item, así como también administra el stock interactivo, los componentes que se encuentran son el Carrito, Checkout, Item, ItemDetail, Container, NavBar y demás, inicialmente la base de datos se emuló a través de un json, pero luego se importó a través de Firebase, y ahora está completamente integrada, el proyecto logra crear e ingresar una orden desde cero, generando una ID de pedido al final y también creándola en Firebase, cuya información está asegurada en un archivo .env a su vez.
+
+Siéntase libre de dejar sus comentarios y comunicarse conmigo a:
+
+Email: alvaroblanquicett@gmail.com
+LinkedIn: https://www.linkedin.com/in/alvaro-blanquicett/
+GitHub: https://github.com/alencett
+
+Gracias!
+
+Mayo 2023
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
