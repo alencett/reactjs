@@ -14,6 +14,9 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_appId
 };
 
+// Log the configuration to verify the environment variables
+console.log('Firebase Config:', firebaseConfig);
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app)

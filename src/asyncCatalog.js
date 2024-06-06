@@ -13,7 +13,7 @@ const products = [
         name: 'ASYNCPostre Tres Leches',
         price: 10000,
         category: 'postres',
-        img: 'https://cuk-it.com/wp-content/uploads/2022/05/thumb03-1024x576.jpg',
+        img: 'https://cdn0.recetasgratis.net/es/posts/0/1/9/torta_tres_leches_8910_orig.jpg',
         stock: 20,
         description: 'Delicioso postre Tres Leches para deleitar el paladar'
     },
